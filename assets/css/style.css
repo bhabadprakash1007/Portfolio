@@ -1,0 +1,155 @@
+
+
+@import url(../css/variables.css);
+
+/* start navbar */
+.header_area .menu .navbar
+{
+    position:sticky;
+}
+.header_area .menu .navbar .navbar-brand
+{
+    padding-left:80px ;
+}
+.header_area .menu .nav-item .nav-link
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding-left: 30px;
+  
+}
+.header_area .menu .navbar-nav .active 
+a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .menu .navbar-nav .active 
+a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.backgroundcol
+{
+    background-color:auto;
+}
+/* end navbar */
+
+
+/* banner */
+/*
+.site-main .site-banner
+
+{
+    background-image: url(../images/My\ Post\ \(3\).png);
+
+}*/
+
+.site-main .site-banner h3
+{
+    padding-top: 40%;
+    padding-left: 30%;
+}
+.site-main .site-banner h3::after
+{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+
+.site-main .site-banner h1
+{
+    font-size: 4rem;
+    padding-left: 30%;
+}
+.site-main .site-banner .site-title h4
+{
+    
+    padding-left: 30%;
+}
+/* end banner */
+/* .site-main .site-banner .site_image
+{
+    padding-top: 50%;
+} */
+/* about */
+
+.site-main .about-area
+{
+    margin: top 5rem;
+    padding-right:80px ;
+}
+.site-main .about-area .about-title
+{
+    margin-top: 20px ;
+}
+p
+{
+    color:black;
+    font-size: large;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+/* end about */
+/* service area */
+
+.site-main .service-area
+{
+    padding: 7rem 2rem;
+}
+
+.site-main .service-area .service-title
+{
+    padding: 0 14rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.site-main .service-area .service-title .card-title
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* end service area */
+
+/* Start gallery */
+
+.site-main .project-area
+{
+    padding: 4rem;
+    border-radius: 10px;
+    background-color:aqua;
+}
+.site-main .project-area .button-group button
+{
+    background: transparent;
+    border: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+/* end gallery */
+/* start contact */
+
+.site-main .contact-area .contact-title
+{
+    padding: 4rem;
+    text-align:center ;
+}
+
+/* end contact */
+
+
+
+
+
+
+
+
